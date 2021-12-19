@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
 
-  /* border: blue solid 0.5px; */
+  /* border: blue solid 0.1px; */
+  
 }
 
 :root {
@@ -52,7 +53,7 @@ img {
   margin-right: 32px;
 }
 
-#lang-select {
+#header-lang-select {
   border: 1px solid #fff;
   color: white;
   background-color: #00000066;
@@ -63,7 +64,7 @@ img {
   appearance: none;
 }
 
-.btn-entrar {
+.header-btn-entrar {
   background-color: var(--cor0);
   color: #fff;
 
@@ -82,8 +83,82 @@ img {
   background: url(../images/header-bg.jpg) no-repeat center fixed;
   background-size: cover;
   background-clip: content-box;
+  
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 
   height: 70vh;
   position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
+.main-background-gradient {
+  position: absolute;
+  
+  background-color: #0006;
+  background-image: linear-gradient(to top,#000c 0,#0000 60%,#000c 100%);
+  
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 950px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  padding: 0 75px;
+}
+
+.main-content h1 {
+  font-size: 4rem;
+}
+
+.main-content h2 {
+  font-size: 1.63rem;
+  padding: 16px 0;
+}
+
+.main-content h3 {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.main-form-email {
+  height: 70px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.main-form-email > input {
+  border: solid 1px #8c8c8c;
+  width: 500px;
+  height: 100%;
+  padding: 10px 10px 0;
+  color: #8c8c8c;
+  font-size: 1rem
+}
+
+.main-form-email > button {
+  background-color: var(--cor0);
+  min-width: 170px;
+  height: 100%;
+  border: none;
+  border-left: solid 1px #000;
+  color: #fff;
+  font-size: 1.88rem;
+  padding: 0 30px;
+}
