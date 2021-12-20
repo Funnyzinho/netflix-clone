@@ -1,47 +1,70 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-
-  /* border: blue solid 0.1px; */
-  
+  box-sizing: border-box;
 }
 
 :root {
-  --cor0: #e50914;
+  /* Cores de plano de fundo */
+  --cor-bg0: #000;
+  --cor-bg1: #00000066;
+  --cor-bg2: #303030;
+  --cor-bg3: #fff;
+  --cor-bg4: #f3f3f3;
+  --cor-bg5: #e50914;
+
+  /* Cores de texto */
+
+  --cor-txt0: #fff;
+  --cor-txt1: #ffa00a;
+  --cor-txt2: #999999;
+  --cor-txt3: #8c8c8c;
+  --cor-txt4: #0071eb;
+  --cor-txt5: #757575;
+  --cor-txt6: #333;
+  --cor-txt7: #000;
+
+  /* Cores de borda */
+
+  --cor-border0: #ffffff40;
+  --cor-border1: #ffa00a;
+  --cor-border2: #aaaaaa;
+  --cor-border3: #8c8c8c;
+  --cor-border4: #333333;
+  --cor-border5: #222222;
+  --cor-border6: #fff;
 }
 
 body {
   font-family: sans-serif;
-
-  background-color: #222;
-
   font-size: 16px;
+  word-spacing: 0px;
+  text-decoration: none solid #fff;
+
+  background-color: #000;
+
+  transition: all 0s ease 0s;
 }
 
 img {
-  display: block; /*  Por padrão as imagens vem em display inline-block*/
   max-width: 100%; /*  A imagem sempre vai ocupar 100% do width do seu pai*/
+  display: block; /*  Por padrão as imagens vem em display inline-block*/
 }
 
 .header {
-  display: flex;
+  margin: 28px auto 0 auto;
+  max-width: 85vw;
+  height: 50px;
 
+  display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin: 28px auto 0 auto;
-
-  max-width: 90vw;
-  height: 50px;
-
   position: absolute;
-
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-
   z-index: 100;
 }
 
@@ -51,114 +74,138 @@ img {
 
 .header > form {
   margin-right: 32px;
+
+  border: var(--cor-border6) 1px solid;
+  border-radius: 3px;
 }
 
 #header-lang-select {
-  border: 1px solid #fff;
-  color: white;
-  background-color: #00000066;
-  border-radius: 3px;
-  padding: 8px 22px;
-  
   width: 100%;
+  height: 100%;
+
+  padding: 8px 22px;
+
+  border: 1px solid var(--cor-border2);
+  border-radius: 3px;
+
+  font-weight: 1.138rem;
+
+  background-color: var(--cor-bg1);
+  color: var(--cor-bg3);
   appearance: none;
 }
 
 .header-btn-entrar {
-  background-color: var(--cor0);
-  color: #fff;
-
   padding: 7px 17px;
 
-  font-weight: 400;
+  font-size: 1rem;
   line-height: normal;
-  font-size: 16px;
+  text-decoration: none;
+
+  background-color: var(--cor-bg5);
+  color: var(--cor-bg3);
 
   border-radius: 3px;
-  text-decoration: none;
-  
 }
 
 .main {
-  background: url(../images/header-bg.jpg) no-repeat center fixed;
-  background-size: cover;
-  background-clip: content-box;
-  
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-
-  height: 70vh;
-  position: relative;
+  width: 100vw;
+  height: 75vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-}
 
-.main-background-gradient {
-  position: absolute;
-  
-  background-color: #0006;
-  background-image: linear-gradient(to top,#000c 0,#0000 60%,#000c 100%);
-  
+  position: relative;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
 
+  background: url(../images/header-bg.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-clip: content-box;
+
+  border-bottom: 8px solid #222;
+}
+
+.main-background-gradient {
+  position: absolute;
+
+  background-color: #0006;
+  background-image: linear-gradient(to top, #000c 0, #0000 60%, #000c 100%);
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   z-index: 1;
 }
 
 .main-content {
   width: 100%;
   max-width: 950px;
-  text-align: center;
-  color: #fff;
-  z-index: 2;
   padding: 0 75px;
+
+  text-align: center;
+
+  color: #fff;
+
+  z-index: 2;
 }
 
 .main-content h1 {
   font-size: 4rem;
+  line-height: 4.4rem;
 }
 
 .main-content h2 {
-  font-size: 1.63rem;
   padding: 16px 0;
+
+  font-size: 1.63rem;
+  font-weight: 400;
 }
 
 .main-content h3 {
-  font-size: 1.2rem;
   padding-bottom: 20px;
+
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .main-form-email {
   height: 70px;
+
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
 }
 
 .main-form-email > input {
-  border: solid 1px #8c8c8c;
   width: 500px;
   height: 100%;
-  padding: 10px 10px 0;
+  padding: 0px 10px;
+  border: solid 1px #8c8c8c;
+
+  display: flex;
+  justify-content: center;
+
+  font-size: 1rem;
+
   color: #8c8c8c;
-  font-size: 1rem
 }
 
 .main-form-email > button {
-  background-color: var(--cor0);
   min-width: 170px;
   height: 100%;
   border: none;
-  border-left: solid 1px #000;
-  color: #fff;
-  font-size: 1.88rem;
   padding: 0 30px;
+  border-left: solid 1px #000;
+  
+  font-size: 1.88rem;
+  
+  background-color: var(--cor0);
+  color: #fff;
 }
