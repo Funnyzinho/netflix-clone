@@ -195,7 +195,7 @@ a:hover {
   justify-content: center;
   align-items: center;
 
-  padding: 70px 45px;
+  padding: 40px 45px;
   border-bottom: 8px solid var(--cor-02);
 }
 
@@ -230,20 +230,15 @@ a:hover {
   width: 48%;
 }
 
-.section-content-card > img {
-  margin: -10% -5% -5% 0;
-}
-
 .section-content-card-video {
   position: absolute;
-  top: 9%;
+  top: 13%;
   left: 13%;
   right: 0;
   bottom: 0;
   z-index: -1;
-
   width: 73%;
-  height: 69%;
+  height: 70%;
 }
 
 .section-content-card > .section-content-card-video > video {
@@ -252,13 +247,12 @@ a:hover {
 }
 
 .desktop-video-asset {
-  top: -4%;
+  top: 10%;
   left: 19%;
   right: 0;
   bottom: 0;
-  
   width: 61%;
-  height: 57%;
+  height: 46%;
 }
 
 .section-content-questions {
@@ -266,7 +260,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
-  gap: 50px;
+  gap: 42px;
   width: 100%;
 
   text-align: center;
@@ -298,10 +292,18 @@ a:hover {
   margin: 0;
 }
 
+.section-content-form  {
+  max-width: 700px;
+  width: 100%;
+}
 .section-content-form p {
   margin-bottom: 20px;
 
   font-size: 1.25rem;
+}
+
+.section-content-form > .main-form-email {
+  width: auto;
 }
 
 .footer {
