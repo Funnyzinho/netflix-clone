@@ -28,7 +28,14 @@
 
 ##  :framed_picture: Overview
 
-<kbd><img src="images/overview-desktop.gif" alt="exemplo imagem"></kbd>
+<div align="center"><kbd><img src="images/overview-desktop.gif" alt="exemplo imagem" align="center"></kbd></div>
+
+<br>
+
+<details align="center">
+   <summary><strong>📱 Mobile</strong></summary> 
+<div align="center"><kbd><img src="images/overview-mobile.gif" alt="exemplo imagem" align="center"></kbd></div>
+</details>
 
 > I made this simple project to warm up and be able to stick to larger projects. But as simple as it seems, and harder than it seems, I invite others to do it.
 ### :pushpin: Adjustments and improvements
