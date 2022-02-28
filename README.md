@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://funnyzinho.github.io/netflix-clone/index.html">
+    <a href="https://devpedrom.github.io/netflix-clone/index.html">
       Demo
     </a>
     <span> | </span>
@@ -26,7 +26,7 @@
 - [Contributing](#people_holding_hands-contributing)
 - [License](#pencil-license)
 
-##  :framed_picture: Overview
+## :framed_picture: Overview
 
 <div align="center"><kbd><img src="images/overview-desktop.gif" alt="exemplo imagem" align="center"></kbd></div>
 
@@ -38,6 +38,7 @@
 </details>
 
 > I made this simple project to warm up and be able to stick to larger projects. But as simple as it seems, and harder than it seems, I invite others to do it.
+
 ### :pushpin: Adjustments and improvements
 
 The project is still in development and the next updates will focus on the following tasks:
@@ -45,10 +46,12 @@ The project is still in development and the next updates will focus on the follo
 - [x] Responsiveness
 - [x] Image Optimization
 - [x] W3 Validator
-- [x] README 
+- [x] README
 
 ## :people_holding_hands: Contributing
+
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+
 To contribute to the project, follow these steps:
 
 1. Fork this repository.
@@ -66,8 +69,8 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="https://www.github.com/funnyzinho">
-        <img src="https://www.github.com/funnyzinho.png" width="100px;" alt="Foto do Pedro Mendes no GitHub"/><br>
+      <a href="https://www.github.com/devpedrom">
+        <img src="https://www.github.com/devpedrom.png" width="100px;" alt="Foto do Pedro Mendes no GitHub"/><br>
         <sub>
           <b>Pedro Mendes</b>
         </sub>
