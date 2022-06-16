@@ -1,17 +1,9 @@
-<h1 align="center">404 page not found error - Responsive page</h1>
-
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+<h1 align="center">Netflix Clone - Responsive page</h1>
 
 <div align="center">
   <h3>
     <a href="https://devpedrom.github.io/netflix-clone/index.html">
       Demo
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
-      Challenge
     </a>
   </h3>
 </div>
