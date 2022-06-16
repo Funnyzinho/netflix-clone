@@ -1,4 +1,5 @@
-<h1 align="center">Netflix Clone - Responsive page</h1>
+<h1 align="center"><img src="images/favicon.ico" height="24px" alt="Scarrow"></img> Netflix Clone - Responsive page
+</h1>
 
 <div align="center">
   <h3>
