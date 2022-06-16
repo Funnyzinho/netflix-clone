@@ -30,8 +30,6 @@
 <div align="center"><kbd><img src="images/overview-mobile.gif" alt="exemplo imagem" align="center"></kbd></div>
 </details>
 
-> I made this simple project to warm up and be able to stick to larger projects. But as simple as it seems, and harder than it seems, I invite others to do it.
-
 ### :pushpin: Adjustments and improvements
 
 The project is still in development and the next updates will focus on the following tasks:
